@@ -211,7 +211,7 @@ import org.junit.Assert.*
 
    val result = sumFee(sumTransfer, totalHasTransfered, cardType).toInt()
 
-   assertEquals(75, result)
+   assertEquals(1075, result)
   }
 
  }
